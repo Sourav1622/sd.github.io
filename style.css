@@ -153,11 +153,8 @@ html{
   margin-top:4px;
 }
 @media screen and (max-width:891px){
-  .section{
-  position: sticky;
-}
   .navbar>ul{
-    /* display:none; */
+    display:none;
     position: absolute;
     flex-direction: column;
     width:95%;
@@ -167,13 +164,10 @@ html{
     top:90px;
     left:3%;
     align-items:flex-start;
-    opacity:0;
-    visibility: none;
     transition: 0.5s;
   }
   .menubar.showNav{
-    opacity:1;
-    visibility: visible;
+    display:block;
     top:80px;
   }
   .navbar>ul>li{
