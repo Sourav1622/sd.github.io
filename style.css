@@ -153,6 +153,9 @@ html{
   margin-top:4px;
 }
 @media screen and (max-width:891px){
+  .section{
+  position: sticky;
+}
   .navbar>ul{
     /* display:none; */
     position: absolute;
