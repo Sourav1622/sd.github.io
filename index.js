@@ -26,6 +26,7 @@ const showNavbar=()=>{
     const target = document.querySelector('.menubar').classList.toggle('showNav');
 }
 
+btn.addEventListener('click',showNavbar);
 // Page Scrolling Effect
 arrow.addEventListener('click',()=>{
     window.scrollTo(0,0);
